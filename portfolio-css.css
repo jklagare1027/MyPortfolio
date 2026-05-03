@@ -1,0 +1,192 @@
+body{
+	width: 100%;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.2)50%, rgba(0, 0, 0, 0.2)50%), url(11.jpg);
+	background-position: center;
+	background-size: cover;
+	margin: 0px;
+	height: 100vh;
+}
+
+.navbar{
+	width: 1200px;
+	height: 75px;
+	margin: auto;
+}
+
+.logo{
+	color: #ffffff;
+	font-size: 50px;
+	font-family: Arial;
+	padding-left: 20px;
+	float: left;
+	padding-top: 10px;
+}
+
+.menu{
+	width: 900px;
+	float: left;
+	height: 70px;
+}
+
+ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul li{
+	list-style: none;
+	margin-left: 70px;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.1s ease-in-out;
+	background-color: #b3cf99;
+	border-radius: 20px;
+	padding: 8px;
+}
+
+ul li a:hover{
+	color: #18392b;
+}
+
+/*home section here*/
+
+.home .box-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.home .box-container .box .image{
+	position: relative;
+	left: 100px;
+}
+
+.home .box-container .box .image img{
+	height: 400px;
+	width: 400px;
+	margin-top: 70px;
+	border-radius: 200px;
+}
+
+.home .box-container h2 {
+	position: relative;
+	left: 100px;
+	top: 90px;
+	font-family: Arial;
+	color: #b3cf99;
+	font-size: 70px;
+	font-weight: bold;
+}
+
+/* about me section here*/
+
+.aboutme .box-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5rem;
+}
+
+.aboutme .box-container .box .image{
+	position: relative;
+	text-align: center;
+	padding-top: 2rem;
+	left: -100px;
+}
+
+.aboutme .box-container .box .image img{
+	height: 200px;
+	width: 200px;
+	margin-top: 70px;
+	border-radius: 10px;
+}
+
+.box .par{
+	position: relative;
+	left: -100px;
+	font-family: Arial;
+}
+
+.par{
+	color: #fff;
+}
+
+.content .par{
+	font-family: Arial;
+	padding-left: 10rem;
+	padding-right: 10rem;
+}
+
+/* Skills sectiion here */
+
+.skills .box-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5rem;
+}
+
+.skills .box-container .box .image{
+	position: relative;
+	text-align: center;
+	padding-top: 2rem;
+	left: -100px;
+}
+
+.skills .box-container .box .image img{
+	height: 200px;
+	width: 200px;
+	margin-top: 70px;
+	border-radius: 10px;
+}
+
+/*hobbies section here*/
+.hobbies .box-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5rem;
+}
+
+.hobbies .box-container .box .image{
+	position: relative;
+	text-align: center;
+	padding-top: 2rem;
+	left: -100px;
+}
+
+.hobbies .box-container .box .image img{
+	height: 200px;
+	width: 200px;
+	margin-top: 70px;
+	border-radius: 10px;
+}
+
+
+
+
+
+.contacts .box-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5rem;
+}
+
+.contacts .box-container .box .image{
+	position: relative;
+	text-align: center;
+	padding-top: 2rem;
+	left: -100px;
+}
+
+.contacts .box-container .box .image img{
+	height: 200px;
+	width: 200px;
+	margin-top: 70px;
+	border-radius: 10px;
+}
